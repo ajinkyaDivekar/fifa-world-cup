@@ -1,0 +1,25 @@
+#catalog {
+  // background: red;
+
+  .catalog-page {
+    display: grid;
+    padding: 0 5%;
+    .left-section {
+      grid-column-start: 1;
+      grid-column-end: three;
+      grid-row-start: row1-start;
+      grid-row-end: 2;
+    }
+    .right-section {
+      grid-column-start: 5;
+      grid-column-end: 2;
+      grid-row-start: row1-start;
+      grid-row-end: 3;
+
+      #filters {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+  }
+}

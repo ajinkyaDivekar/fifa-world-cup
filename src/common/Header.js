@@ -9,6 +9,7 @@ import { Link, useRouteMatch} from "react-router-dom";
         <Navbar.Brand href="#home"> FIFA WC</Navbar.Brand>
         <Nav className="mr-auto">
           <Link className="nav-link" to="/home"> Home </Link>
+          <Link className="nav-link" to="/catalog"> Catalog </Link>
           <Link className="nav-link" to="/about"> Features </Link>
           <Link className="nav-link" to="/users"> Users </Link>
           <Link className="nav-link" to="/topics"> Topics </Link>
