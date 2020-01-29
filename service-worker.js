@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/fifa-world-cup/precache-manifest.cbbc4a1500a20de7a4f43032dce9034d.js"
+  "/fifa-world-cup/precache-manifest.80e2a56e62609bcafdbbe8032ff13fe7.js"
 );
 
 self.addEventListener('message', (event) => {

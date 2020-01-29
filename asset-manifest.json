@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/fifa-world-cup/static/css/main.54c18f54.chunk.css",
-    "main.js": "/fifa-world-cup/static/js/main.5d736e88.chunk.js",
-    "main.js.map": "/fifa-world-cup/static/js/main.5d736e88.chunk.js.map",
+    "main.js": "/fifa-world-cup/static/js/main.1d85976d.chunk.js",
+    "main.js.map": "/fifa-world-cup/static/js/main.1d85976d.chunk.js.map",
     "runtime-main.js": "/fifa-world-cup/static/js/runtime-main.e66b90f0.js",
     "runtime-main.js.map": "/fifa-world-cup/static/js/runtime-main.e66b90f0.js.map",
     "static/css/2.47e06e2e.chunk.css": "/fifa-world-cup/static/css/2.47e06e2e.chunk.css",
@@ -25,7 +25,7 @@
     "static/js/9.12ca27a3.chunk.js": "/fifa-world-cup/static/js/9.12ca27a3.chunk.js",
     "static/js/9.12ca27a3.chunk.js.map": "/fifa-world-cup/static/js/9.12ca27a3.chunk.js.map",
     "index.html": "/fifa-world-cup/index.html",
-    "precache-manifest.cbbc4a1500a20de7a4f43032dce9034d.js": "/fifa-world-cup/precache-manifest.cbbc4a1500a20de7a4f43032dce9034d.js",
+    "precache-manifest.80e2a56e62609bcafdbbe8032ff13fe7.js": "/fifa-world-cup/precache-manifest.80e2a56e62609bcafdbbe8032ff13fe7.js",
     "service-worker.js": "/fifa-world-cup/service-worker.js",
     "static/css/2.47e06e2e.chunk.css.map": "/fifa-world-cup/static/css/2.47e06e2e.chunk.css.map",
     "static/css/3.32bb3e1f.chunk.css.map": "/fifa-world-cup/static/css/3.32bb3e1f.chunk.css.map",
@@ -39,6 +39,6 @@
     "static/css/2.47e06e2e.chunk.css",
     "static/js/2.6282ffdd.chunk.js",
     "static/css/main.54c18f54.chunk.css",
-    "static/js/main.5d736e88.chunk.js"
+    "static/js/main.1d85976d.chunk.js"
   ]
 }
