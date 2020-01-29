@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bfaa2360b0f4d1b6b10887378df21b8e",
+    "revision": "7ae3c846d1461e2211d7f96cc7c3d55e",
     "url": "/fifa-world-cup/index.html"
   },
   {
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fifa-world-cup/static/css/6.acadfeab.chunk.css"
   },
   {
-    "revision": "e8a19d8bb239c8be302b",
+    "revision": "633aa1ba817a8ecfa285",
     "url": "/fifa-world-cup/static/css/main.54c18f54.chunk.css"
   },
   {
@@ -44,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fifa-world-cup/static/js/6.9a22e18f.chunk.js"
   },
   {
-    "revision": "1513ccecec12e4d59f9d",
-    "url": "/fifa-world-cup/static/js/7.d6a41216.chunk.js"
+    "revision": "3a40b118347bd98d94c1",
+    "url": "/fifa-world-cup/static/js/7.fd755fdd.chunk.js"
   },
   {
     "revision": "af8c4bdfa6295fa23e00",
@@ -56,12 +56,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/fifa-world-cup/static/js/9.12ca27a3.chunk.js"
   },
   {
-    "revision": "e8a19d8bb239c8be302b",
-    "url": "/fifa-world-cup/static/js/main.cfceca16.chunk.js"
+    "revision": "633aa1ba817a8ecfa285",
+    "url": "/fifa-world-cup/static/js/main.5d736e88.chunk.js"
   },
   {
-    "revision": "17f14fd5f04f50dd02a7",
-    "url": "/fifa-world-cup/static/js/runtime-main.b8a6af42.js"
+    "revision": "ecde216fdfbd04934ecf",
+    "url": "/fifa-world-cup/static/js/runtime-main.e66b90f0.js"
   },
   {
     "revision": "5d5d9eefa31e5e13a6610d9fa7a283bb",
