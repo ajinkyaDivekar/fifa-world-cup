@@ -22,6 +22,7 @@ const people = [
   {name: 'John', alive: true},
   {name: 'Mia', alive: true}
 ]
+// const people = [];
 
 
 const reducer = (people, action) => {
@@ -49,6 +50,7 @@ const reducer = (people, action) => {
 
 const ColorContext = React.createContext(colors.blue);
 const FeaturesHooks = () => {
+  console.log(process.env,'$npm_package_name')
   const [key, setKey] = useState('useState')
   return (
     <div>
@@ -165,7 +167,7 @@ const UseContextComp = () => {
 }
 
 const UseReducerComp = () => {
-  const [state, dispatch] = useReducer(reducer, people);
+  const [state, dispatch] = useReducer(reducer, people.length ? people : [{name:'temp',alive:true}]);
   console.log(state,'satte')
   return (
     <div>
@@ -181,6 +183,8 @@ const UseReducerComp = () => {
     </div>
   )
 }
+
+
 
 
 const UseRefComp = () => {

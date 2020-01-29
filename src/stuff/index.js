@@ -11,7 +11,7 @@ import Header from '../common/Header';
 class Stuff extends Component {
   render() {
     return (
-      <Router>
+      <Router basename='fifa-world-cup'>
         <Header />
         <BasicRoute />
       </Router>
