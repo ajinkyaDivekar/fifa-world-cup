@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Suspense, lazy } from "react";
 import {
   Switch,
   Route,
@@ -6,27 +6,24 @@ import {
   useParams,
   Link
 } from "react-router-dom";
-import Catalog from "../component/catalog";
+
+const Catalog = lazy(() => import('../component/catalog'));
+const Features = lazy(() => import('../component/features'));
+const Hooks = lazy(() => import('../component/hooks'));
 
 export default function BasicRoute() {
   return (
-        <Switch>
-          <Route path="/about">
-            <About />
-          </Route>
-          <Route path="/catalog">
-            <Catalog />
-          </Route>
-          <Route path="/users">
-            <Users />
-          </Route>
-          <Route path="/topics">
-          <Topics />
-        </Route>
-        <Route path="/">
-          <Home />
-        </Route>
-        </Switch>
+    <Suspense fallback={<div>Loading...</div>}>
+      <Switch>
+        <Route path="/about" component={About}/>
+        <Route path="/features" component={Features}/>
+        <Route path="/catalog" component={Catalog}/>
+        <Route path="/hooks" component={Hooks}/>
+        <Route path="/users" component={Users}/>
+        <Route path="/topics" component={Topics}/>
+        <Route path="/" component={Home}/>
+      </Switch>
+    </Suspense>
   );
 }
 

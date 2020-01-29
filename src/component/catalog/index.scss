@@ -3,12 +3,15 @@
 
   .catalog-page {
     display: grid;
+    // grid-template-columns: repeat(2, 1fr);
+    // grid-auto-rows: 100px;
     padding: 0 5%;
     .left-section {
       grid-column-start: 1;
       grid-column-end: three;
       grid-row-start: row1-start;
       grid-row-end: 2;
+      width: 280px;
     }
     .right-section {
       grid-column-start: 5;
@@ -19,6 +22,28 @@
       #filters {
         display: flex;
         justify-content: space-between;
+      }
+
+
+      #products {
+        h1 {
+          text-align: center;
+        }
+        ul {
+          display: grid;
+          grid-template-columns: repeat(3, 1fr);
+          grid-gap: 10px;
+          text-align: center;
+          li {
+            list-style: none;
+            a {
+              display: inline-grid;
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
       }
     }
   }
