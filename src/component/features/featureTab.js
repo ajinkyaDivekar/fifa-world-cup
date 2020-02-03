@@ -13,6 +13,11 @@ export default function FeatureTab() {
               ForwordRef
             </Link>
           </li>
+          <li>
+            <Link to={`${match.url}/asyncAwait`}>
+              Await/Async
+            </Link>
+          </li>
         </ul>
       )
 }
