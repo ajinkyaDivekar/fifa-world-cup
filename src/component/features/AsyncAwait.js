@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import axios from 'axios';
 
 // export default function AsyncAwait() {
@@ -8,8 +8,6 @@ import axios from 'axios';
 //     </div>
 //   )
 // }
-
-
 
 class AsyncAwait extends React.Component {
   constructor(props) {
@@ -30,8 +28,8 @@ class AsyncAwait extends React.Component {
     });
     // console.log('response', response.data.hits);
     if (query !== '') {
-      let data=[];
-      let errorMsg='';
+      let data = [];
+      let errorMsg = '';
       try {
         let response = await axiosInstance.get(`?q=${query}&maxResults=10`);
         console.log('response', response);
@@ -48,7 +46,6 @@ class AsyncAwait extends React.Component {
         errMessage: errorMsg,
       });
     }
-
   }
   onSearch(e) {
     e.preventDefault();
@@ -82,42 +79,29 @@ class AsyncAwait extends React.Component {
               placeholder="Enter Keywords for Books search"
               onChange={event => this.setState({ query: event.target.value })}
             />
-            {/* <div className="search-button"> */}
-
-            {/* </div> */}
-
           </div>
           <div className="form-group col-md-12">
-          <input
-            type="button"
-            className="btn btn-primary"
-            onClick={this.onSearch}
-            value="Search"
-          />
+            <input
+              type="button"
+              className="btn btn-primary"
+              onClick={this.onSearch}
+              value="Search"
+            />
           </div>
         </form>
-        <>
-        {(books && (
-          <ul className="default">
-            {books.map((item, id) => (
-            <li key={id}>
-              <a href={item.volumeInfo.infoLink} target="_blank">
-                {item.volumeInfo.title}
-              </a>
-            </li>
-            ))}
-          </ul>
-        )) ||
-         ( <p className="alert-danger">
-            {errMessage}
-          </p>)}
-        {books && (
-          <p> Total Items : {(books && books.length) || 0}</p>
-        )}
-      </>
-        {/* <ThemeContext.Provider value={{ state: this.state }}>
-          {this.props.children}
-        </ThemeContext.Provider> */}
+          {(books && (
+            <ul className="default">
+              {books.map((item, id) => (
+                <li key={id}>
+                  <a href={item.volumeInfo.infoLink} target="_blank">
+                    {item.volumeInfo.title}
+                  </a>
+
+                </li>
+              ))}
+            </ul>
+          )) || <p className="alert-danger">{errMessage}</p>}
+          {books && <p> Total Items : {(books && books.length) || 0}</p>}
       </div>
     );
   }
