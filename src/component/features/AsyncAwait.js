@@ -26,7 +26,6 @@ class AsyncAwait extends React.Component {
     var axiosInstance = axios.create({
       baseURL: 'https://www.googleapis.com/books/v1/volumes',
     });
-    // console.log('response', response.data.hits);
     if (query !== '') {
       let data = [];
       let errorMsg = '';
