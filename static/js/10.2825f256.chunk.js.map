@@ -1,0 +1,1 @@
+{"version":3,"sources":["component/hooks/index.js"],"names":["Hooks"],"mappings":"yHAAA,mEAEe,SAASA,IACtB,OACE","file":"static/js/10.2825f256.chunk.js","sourcesContent":["import React from 'react'\n\nexport default function Hooks() {\n  return (\n    <div>\n    Hooks\n    </div>\n  )\n}\n"],"sourceRoot":""}
